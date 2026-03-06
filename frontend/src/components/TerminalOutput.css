@@ -1,0 +1,66 @@
+.terminal-wrapper {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #2a2a4a;
+  font-family: "Fira Code", "JetBrains Mono", "Cascadia Code", monospace;
+}
+
+.terminal-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #1a1a2e;
+  padding: 10px 14px;
+  border-bottom: 1px solid #2a2a4a;
+}
+
+.terminal-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.terminal-dot--red    { background: #ff5f57; }
+.terminal-dot--yellow { background: #febc2e; }
+.terminal-dot--green  { background: #28c840; }
+
+.terminal-title {
+  margin-left: 8px;
+  font-size: 12px;
+  color: #4b5563;
+  letter-spacing: 0.05em;
+}
+
+.terminal-body {
+  background: #0d0d0d;
+  color: #00ff41;
+  padding: 16px 20px;
+  min-height: 260px;
+  max-height: 400px;
+  overflow-y: auto;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.terminal-placeholder {
+  color: #2d4a2d;
+}
+
+.terminal-line {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.terminal-line:empty::after {
+  content: "\00a0";
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+.terminal-cursor {
+  animation: blink 1s step-end infinite;
+  color: #00ff41;
+}
