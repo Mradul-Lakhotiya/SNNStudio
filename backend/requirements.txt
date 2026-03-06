@@ -1,0 +1,4 @@
+snntorch
+torch
+torchvision
+fastapi
