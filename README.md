@@ -59,7 +59,6 @@ SNNStudio/
 │   │       ├── TerminalOutput.tsx/.css     # Live training terminal
 │   │       └── ResultsPanel.tsx/.css       # Accuracy badge + charts
 │   ├── .env                                # VITE_MODAL_URL (not committed)
-│   └── .env.example                        # Template for .env
 └── PLAN.md                                 # Architecture decisions
 ```
 
@@ -178,7 +177,3 @@ The URL stays the same — no need to update `.env` again.
 | `too many values to unpack` | Outdated backend — redeploy with `modal deploy modal_app.py` |
 
 ---
-
-## License
-
-MIT
