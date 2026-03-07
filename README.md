@@ -119,7 +119,6 @@ Copy that URL — you'll need it in the next step.
 
 ```bash
 cd ../frontend
-cp .env
 ```
 
 Edit `.env` and paste your Modal URL:
