@@ -178,7 +178,3 @@ The URL stays the same — no need to update `.env` again.
 | `too many values to unpack` | Outdated backend — redeploy with `modal deploy modal_app.py` |
 
 ---
-
-## License
-
-MIT
