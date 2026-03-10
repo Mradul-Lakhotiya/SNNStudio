@@ -59,7 +59,6 @@ SNNStudio/
 │   │       ├── TerminalOutput.tsx/.css     # Live training terminal
 │   │       └── ResultsPanel.tsx/.css       # Accuracy badge + charts
 │   ├── .env                                # VITE_MODAL_URL (not committed)
-│   └── .env.example                        # Template for .env
 └── PLAN.md                                 # Architecture decisions
 ```
 
@@ -120,7 +119,6 @@ Copy that URL — you'll need it in the next step.
 
 ```bash
 cd ../frontend
-cp .env.example .env
 ```
 
 Edit `.env` and paste your Modal URL:
